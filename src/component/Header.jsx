@@ -1,7 +1,6 @@
 import React from 'react';
-import NoteAdd from './NoteAdd';
 
-function Header({ addNote }) {
+function Header() {
   const headerStyle = {
     backgroundColor: '#f5ba13',
     margin: 'auto -16px',
