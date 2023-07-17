@@ -6,7 +6,7 @@ function NoteList({ notes }) {
 	return (
 		<div>
 			{notes.map((note) => (
-				<Note id={note.id} title={note.title} content={note.content} />
+				<Note key={note.id} {...note} />
 			))}
 		</div>
 	);
